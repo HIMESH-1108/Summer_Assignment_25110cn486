@@ -1,0 +1,7 @@
+n=int(input("enter a number :"))
+if (n%2==0 and n%4==0):
+    print("the number is even but not divisible by 4",n)
+elif(n%2==0 and n%4==0):
+    print("the number is even or divisible by 4 ",n)    
+else:
+    print("the number is odd",n)    
